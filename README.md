@@ -1,31 +1,34 @@
-<h1>password-generator-csharp</h1>
+Gerador e armazenador de senhas offline
 
-> Status: Developing :construction:
+Tive a ideia de fazer esse pequeno projeto após usar o NordPass por um tempo e pensei "E se fizesse algo semelhante?!", lógico que não ficou na mesma proporção. Alias, é um projeto que roda no console. Feito de forma simples em C# com o intuito de criar senhas fortes de maneira rápida e prática. Também guarda temporariamente as senhas criadas durante o uso.
 
-### His is my password generator, a console project. I decided to create it to test my logic in C#.
+O que tem implementado?
 
-<h2>Features included</h2>
+Geração de senhas com o tamanho que você quiser (mínimo de 8 caracteres);
+Escolher se quer usar letras maiúsculas, números e símbolos especiais;
+Copiar a senha direto para a área de transferência com um clique (usando a biblioteca TextCopy);
 
-* Set the password length.
-* Choose if the password will include uppercase letters, numbers, and special characters.
-* Generate secure passwords.
-* Shuffle the password characters.
+Ver as senhas geradas enquanto o programa estiver aberto.
 
-<h2>Technologies used:</h2>
+Tecnologias usadas:
 
-<table>
-  <tr>
-    <td>C#</td>
-    <td>.NET CORE</td>
-    <td>StringBuilder</td>
-    <td>Random</td>
-  </tr>
-</table>
+C# (.NET);
 
+System.Security.Cryptography (para garantir senhas seguras);
 
-<h2>Future improvements I consider for the password generator:</h2>
+TextCopy (para copiar a senha sem complicação).
 
-+ Implement encryption.
-+ Create a GUI to enhance the user experience.
-+ Add a strength meter to evaluate the generated password.
-+ Allow more control over the types of characters or patterns used in the generation.
+Como seria o uso (até o momento):
+
+Abra o projeto e execute no seu terminal ou IDE favorita;
+Escolha no menu se quer gerar uma senha nova ou ver as que já criou na sessão;
+As senhas são guardadas só enquanto o programa estiver rodando. Ao fechar, tudo é apagado.
+
+Algumas observações:
+
+O foco aqui é praticidade e segurança local;
+
+As senhas não são salvas em nenhum lugar além da memória do programa.
+É uma base para montar algo maior depois, pensei em um gerenciador com banco de dados ou integração com autenticação.
+
+Se quiser contribuir ou dar sugestões, fique à vontade!
