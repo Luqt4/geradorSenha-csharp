@@ -18,13 +18,13 @@ System.Security.Cryptography (para garantir senhas seguras);
 
 TextCopy (para copiar a senha sem complicação).
 
-Como seria o uso (até o momento):
+<h3>Como seria o uso (até o momento):</h3>
 
 Abra o projeto e execute no seu terminal ou IDE favorita;
 Escolha no menu se quer gerar uma senha nova ou ver as que já criou na sessão;
 As senhas são guardadas só enquanto o programa estiver rodando. Ao fechar, tudo é apagado.
 
-Algumas observações:
+<h3>Algumas observações:</h3>
 
 O foco aqui é praticidade e segurança local;
 
