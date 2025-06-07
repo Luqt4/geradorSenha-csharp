@@ -21,6 +21,8 @@ TextCopy (para copiar a senha sem complicação).
 <h3>Como seria o uso (até o momento):</h3>
 
 Abra o projeto e execute no seu terminal ou IDE favorita;
+
+
 Escolha no menu se quer gerar uma senha nova ou ver as que já criou na sessão;
 As senhas são guardadas só enquanto o programa estiver rodando. Ao fechar, tudo é apagado.
 
@@ -31,4 +33,9 @@ O foco aqui é praticidade e segurança local;
 As senhas não são salvas em nenhum lugar além da memória do programa.
 É uma base para montar algo maior depois, pensei em um gerenciador com banco de dados ou integração com autenticação.
 
+<h3>Captura de tela</h3>
+
+![Interface do Gerador de Senhas](fotoprojeto3.png)
+
 Se quiser contribuir ou dar sugestões, fique à vontade!
+
